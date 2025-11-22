@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", Arial, sans-serif;
+  background: #000000;
+  min-height: 100vh;
+  color: #e0e0e0;
+  position: relative;
+}
+.header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #7ed321, #4a9b0f);
+  color: white;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  border-bottom: 8px solid #ffd700;
+  position: relative;
+  z-index: 10;
+}
+.header h1 {
+  font-size: 3em;
+  margin: 0;
+  font-weight: 800;
+}
+.header h2 {
+  font-size: 1.2em;
+  margin: 15px 0;
+  font-weight: 400;
+}
+.MascotaDelClanCharged {
+  background: #1b2a2f;       
+  padding: 15px;
+  display: inline-block;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(126, 211, 33, 0.5);
+  margin: 20px 0;
+}
+.MascotaDelClanCharged img {
+  width: 200px;
+  display: block;
+  border-radius: 8px;
+  background: transparent;
+}
+.IPDelServer {
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+.IPDelServer strong {
+  color: #ffffff;
+}
+.Menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+  flex-wrap: wrap;
+  background: #00b8e6;
+  box-shadow: none;
+  position: relative;
+  z-index: 10;
+  border-bottom: 8px solid #ffd700;
+  margin: 0;
+}
+.Boton1 {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  font-weight: 700;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  background: #7ed321;
+  transition: 0.3s;
+}
+.Boton1:hover {
+  background: #6bb91a;
+  transform: scale(1.07);
+}
+.Boton1.active {
+  background: #5a9f15;
+  color: #ffffff;
+}
+.Contenido {
+  width: 85%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 25px;
+  background: linear-gradient(135deg, #1a1f24 0%, #0f1215 100%);
+  border: 5px solid #7ed321;
+  border-radius: 20px;
+  display: none;
+  animation: fade 0.4s;
+  box-shadow: 0 8px 25px rgba(126, 211, 33, 0.4);
+  position: relative;
+  z-index: 10;
+}
+@keyframes fade {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.Contenido h2 {
+  color: #7ed321;
+  margin-top: 0;
+}
+.Contenido ol li {
+  margin-bottom: 25px;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+.Contenido strong {
+  color: #7ed321;
+}
+.Contenido p {
+  color: #e0e0e0;
+}

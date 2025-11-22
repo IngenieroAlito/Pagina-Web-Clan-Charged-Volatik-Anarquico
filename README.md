@@ -1,1 +1,0 @@
-# Pagina-Web-Clan-Charged-Volatik-Anarquico
